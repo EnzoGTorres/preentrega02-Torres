@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: blueviolet;
+    padding: 2em 4em;
+}
+
+h2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(13, 13, 58);
+    padding: 2rem 3rem;
+}
+
+.anuncio {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.anuncio h3{
+    max-width: 150px;
+    background-color: gainsboro;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset;
+}
+
+.moneda{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(179, 115, 115, 0.25);
+    margin: 10px;
+}
+
+.moneda h1{
+    max-width: 50%;
+}
+
+.moneda p{
+    padding: 20px;
+}
